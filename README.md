@@ -43,3 +43,8 @@ nombreDelUsuario es la ***declaración*** (creación de la variable o caja) y de
 
 - Primitivos: Inmutables (Se pasan por valor)
 - Complejos: Mutables (Se pasan por referencia)
+
+### Lenguajes de programación
+
+- Compilados: C, C++, Rust, Go: Cosas que pasan antes de ejecución - Chequeo estático de tipos
+- Interpretados: JS, Python, Ruby, PHP: Suceden a medidad que se va ejecutando - Chequeo dinámico de tipos
