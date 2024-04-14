@@ -230,3 +230,11 @@ console.log(!b);     // Imprime: true
 ### Estructuras condicionales - Estructuras de control
 
 ***If - Ejecución Condicional:*** La declaración if es una estructura de control que permite que el programa tome decisiones basadas en ciertas condiciones. Si la condición se cumple (es decir, si el resultado es true), entonces se ejecuta un bloque de código. Si la condición no se cumple (es decir, si el resultado es false), el bloque de código se omite.
+
+***For:*** Un bucle "for" es una estructura de control que te permite repetir un bloque de código un cierto número de veces.
+
+***ForEach:*** Tiene una sintaxis mas corta y explicita, se genera un función la cual se va a repetir en cada uno de los elementos que existan adentro del iterable por ejemplo una lista. Es un simplificación
+
+***For of:*** Objetos iterables.
+
+***For in:*** Objetos enumerables.
