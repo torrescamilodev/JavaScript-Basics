@@ -183,3 +183,50 @@ function suma(a, b) { return a + b; }
 ```
 
 Estas son algunas de las categorías comunes de funciones en JavaScript. Es importante comprender estas diferentes formas de definir y utilizar funciones para escribir código más claro y eficiente.
+
+### Operadores de comparación
+
+***== (Igualdad):*** Evalúa si los valores son iguales con conversión de tipo. Devuelve true.
+***=== (Igualdad estricta):*** Evalúa si los valores son iguales y del mismo tipo. Devuelve false.
+***!= (Desigualdad):*** Evalúa si los valores no son iguales con conversión de tipo. Devuelve false.
+***!== (Desigualdad estricta):*** Evalúa si los valores no son iguales y no son del mismo tipo. Devuelve true.
+***>(Mayor que):*** Evalúa si el valor de la izquierda es mayor que el de la derecha. Devuelve true.
+***<(Menor que):*** Evalúa si el valor de la izquierda es menor que el de la derecha. Devuelve false.
+***>= (Mayor o igual que):*** Evalúa si el valor de la izquierda es mayor o igual que el de la derecha. Devuelve true.
+***<= (Menor o igual que):*** Evalúa si el valor de la izquierda es menor o igual que el de la derecha. Devuelve false.
+
+```javaScript
+const a = 10;
+const b = 20;
+const c = "10"
+
+a == b; //false
+a === c; //false
+a != b; //true
+a !== c; //true
+a > b; //false
+a <= b; //true
+a >= b; //false
+a > c; //false
+```
+
+### Operadores Lógicos
+
+Los operadores lógicos se utilizan para determinar la lógica entre variables o valores. Estos operadores siempre devuelven un valor booleano, es decir, true (verdadero) o false (falso).
+
+***&& (AND):*** Devuelve true si ambos operandos son verdaderos.
+***|| (OR):*** Devuelve true si al menos uno de los operandos es verdadero.
+***! (NOT):*** Devuelve true si el operando es falso y false si el operando es verdadero.
+
+```javaScript
+let a = true;
+let b = false;
+
+console.log(a && b); // Imprime: false
+console.log(a || b); // Imprime: true
+console.log(!a);     // Imprime: false
+console.log(!b);     // Imprime: true
+```
+### Estructuras condicionales - Estructuras de control
+
+***If - Ejecución Condicional:*** La declaración if es una estructura de control que permite que el programa tome decisiones basadas en ciertas condiciones. Si la condición se cumple (es decir, si el resultado es true), entonces se ejecuta un bloque de código. Si la condición no se cumple (es decir, si el resultado es false), el bloque de código se omite.
